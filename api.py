@@ -3,7 +3,6 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 app = Flask(__name__)
 
-
 class Users():
     def initialise_connection():
         conn = sqlite3.connect('./database/dev_jcb.db')
